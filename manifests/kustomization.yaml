@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
 - postgresql-operator-default-configuration.yaml
 - operator-service-account-rbac.yaml
+- postgres-service-account-rbac.yaml
 - postgres-operator.yaml
 - api-service.yaml
